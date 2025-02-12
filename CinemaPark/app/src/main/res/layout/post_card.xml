@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="100dp"
+        android:layout_height="190dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/post"
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:src="@drawable/card1"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="22dp"
+                tools:layout_editor_absoluteY="216dp" />
+
+            <TextView
+                android:id="@+id/moveTitle"
+                android:layout_width="wrap_content"
+                android:text="Близкие"
+                android:textSize="12sp"
+                android:textColor="@color/black2"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/moveGenre"
+                android:layout_width="wrap_content"
+                android:text="Драма"
+                android:textSize="10sp"
+                android:textColor="@color/grey"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/rang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/rang"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="8dp"
+            android:layout_gravity="top|end"/>
+        <ImageView
+            android:id="@+id/look"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_see_yes"
+            android:visibility="gone"
+            android:layout_marginBottom="45dp"
+            android:layout_marginEnd="8dp"
+            android:layout_gravity="bottom|end"/>
+
+        <TextView
+            android:id="@+id/textRang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="8sp"
+            android:text="7.0"
+            android:textColor="@color/white"
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="11dp"
+            android:layout_gravity="top|end"
+            tools:ignore="SmallSp" />
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "609986680906",
+    "project_id": "cinemaapp-eb360",
+    "storage_bucket": "cinemaapp-eb360.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:609986680906:android:c89c4c6c54df481d242eb3",
+        "android_client_info": {
+          "package_name": "com.example.cinemapark"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZg2I7ceQQD1836iaeyUJ_Nf2fzQKIiXs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">CinemaPark</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="skillcinema">Skillcinema</string>
+    <string name="premier">Премьеры</string>
+    <string name="skip">Пропустить</string>
+    <string name="popular">Популярное</string>
+    <string name="actionFilms">Боевики США</string>
+    <string name="top250">Топ 250</string>
+    <string name="drama">Драмы Франции</string>
+    <string name="series">Сериалы</string>
+    <string name="all">Все</string>
+    <string name="nameRole">Петров Александр</string>
+    <string-array name="initial_slider_values">
+        <item>0</item>
+        <item>10</item>
+    </string-array>
+</resources>

@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/viewPagerFragment">
+
+    <fragment
+        android:id="@+id/loaderFragment"
+        android:name="com.example.cinemapark.presentation.LoaderFragment"
+        android:label="fragment_loader"
+        tools:layout="@layout/fragment_loader">
+        <action
+            android:id="@+id/action_loaderFragment_to_homepageFragment"
+            app:destination="@id/homepageFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/onBoardindFragment"
+        android:name="com.example.cinemapark.presentation.OnBoardindFragment"
+        android:label="fragment_on_boardind"
+        tools:layout="@layout/fragment_on_boardind" />
+    <fragment
+        android:id="@+id/onBoarding2Fragment2"
+        android:name="com.example.cinemapark.presentation.OnBoarding2Fragment"
+        android:label="fragment_on_boarding2"
+        tools:layout="@layout/fragment_on_boarding2" />
+    <fragment
+        android:id="@+id/onBoarding3Fragment"
+        android:name="com.example.cinemapark.presentation.OnBoarding3Fragment"
+        android:label="fragment_on_boarding3"
+        tools:layout="@layout/fragment_on_boarding3" />
+    <fragment
+        android:id="@+id/homepageFragment"
+        android:name="com.example.cinemapark.presentation.HomepageFragment"
+        android:label="fragment_homepage"
+        tools:layout="@layout/fragment_homepage">
+        <action
+            android:id="@+id/action_homepageFragment_to_listPageFragment"
+            app:destination="@id/listPageFragment" />
+        <action
+            android:id="@+id/action_homepageFragment_to_filmPageFragment"
+            app:destination="@id/filmPageFragment" />
+        <action
+            android:id="@+id/action_homepageFragment_to_searchFragment"
+            app:destination="@id/searchFragment" />
+        <action
+            android:id="@+id/action_homepageFragment_to_profileFragment"
+            app:destination="@id/profileFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/testFragment"
+        android:name="com.example.cinemapark.TestFragment"
+        android:label="fragment_test"
+        tools:layout="@layout/fragment_test" />
+    <fragment
+        android:id="@+id/listPageFragment"
+        android:name="com.example.cinemapark.presentation.ListPageFragment"
+        android:label="fragment_list_page"
+        tools:layout="@layout/fragment_list_page">
+        <action
+            android:id="@+id/action_listPageFragment_to_homepageFragment"
+            app:destination="@id/homepageFragment" />
+        <action
+            android:id="@+id/action_listPageFragment_to_filmPageFragment"
+            app:destination="@id/filmPageFragment" />
+        <action
+            android:id="@+id/action_listPageFragment_self"
+            app:destination="@id/listPageFragment" />
+        <action
+            android:id="@+id/action_listPageFragment_to_filmPageFragment2"
+            app:destination="@id/filmPageFragment" />
+        <action
+            android:id="@+id/action_listPageFragment_to_searchFragment"
+            app:destination="@id/searchFragment" />
+        <action
+            android:id="@+id/action_listPageFragment_to_searchFragment2"
+            app:destination="@id/searchFragment" />
+        <action
+            android:id="@+id/action_listPageFragment_to_profileFragment"
+            app:destination="@id/profileFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/filmPageFragment"
+        android:name="com.example.cinemapark.presentation.FilmPageFragment"
+        android:label="fragment_film_page"
+        tools:layout="@layout/fragment_film_page">
+        <action
+            android:id="@+id/action_filmPageFragment_to_homepageFragment"
+            app:destination="@id/homepageFragment" />
+        <action
+            android:id="@+id/action_filmPageFragment_to_listPageFragment"
+            app:destination="@id/listPageFragment" />
+        <action
+            android:id="@+id/action_filmPageFragment_to_filmActorAllFragment"
+            app:destination="@id/filmActorAllFragment" />
+        <action
+            android:id="@+id/action_filmPageFragment_to_galleryFragment"
+            app:destination="@id/galleryFragment" />
+        <action
+            android:id="@+id/action_filmPageFragment_to_imageSlideFragment"
+            app:destination="@id/imageSlideFragment" />
+        <action
+            android:id="@+id/action_filmPageFragment_to_actorPageFragment"
+            app:destination="@id/actorPageFragment" />
+        <action
+            android:id="@+id/action_filmPageFragment_to_seasonsFragment"
+            app:destination="@id/seasonsFragment" />
+        <action
+            android:id="@+id/action_filmPageFragment_to_searchFragment"
+            app:destination="@id/searchFragment" />
+        <action
+            android:id="@+id/action_filmPageFragment_to_profileFragment"
+            app:destination="@id/profileFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/filmActorAllFragment"
+        android:name="com.example.cinemapark.presentation.FilmActorAllFragment"
+        android:label="fragment_film_actor_all"
+        tools:layout="@layout/fragment_film_actor_all">
+        <action
+            android:id="@+id/action_filmActorAllFragment_to_filmPageFragment"
+            app:destination="@id/filmPageFragment" />
+        <action
+            android:id="@+id/action_filmActorAllFragment_to_actorPageFragment"
+            app:destination="@id/actorPageFragment" />
+        <action
+            android:id="@+id/action_filmActorAllFragment_to_searchFragment"
+            app:destination="@id/searchFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/galleryFragment"
+        android:name="com.example.cinemapark.presentation.GalleryFragment"
+        android:label="fragment_gallery"
+        tools:layout="@layout/fragment_gallery">
+        <action
+            android:id="@+id/action_galleryFragment_to_filmPageFragment"
+            app:destination="@id/filmPageFragment" />
+        <action
+            android:id="@+id/action_galleryFragment_to_imageSlideFragment"
+            app:destination="@id/imageSlideFragment" />
+        <action
+            android:id="@+id/action_galleryFragment_to_searchFragment"
+            app:destination="@id/searchFragment" />
+        <action
+            android:id="@+id/action_galleryFragment_to_profileFragment"
+            app:destination="@id/profileFragment" />
+        <action
+            android:id="@+id/action_galleryFragment_to_homepageFragment"
+            app:destination="@id/homepageFragment" />
+        <action
+            android:id="@+id/action_galleryFragment_to_searchFragment2"
+            app:destination="@id/searchFragment" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/viewPagerFragment"
+        android:name="com.example.cinemapark.viewpager.ViewPagerFragment"
+        android:label="fragment_view_pager"
+        tools:layout="@layout/fragment_view_pager">
+        <action
+            android:id="@+id/action_viewPagerFragment_to_loaderFragment"
+            app:destination="@id/loaderFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/imageSlideFragment"
+        android:name="com.example.cinemapark.presentation.ImageSlideFragment"
+        android:label="fragment_image_slide"
+        tools:layout="@layout/fragment_image_slide">
+        <action
+            android:id="@+id/action_imageSlideFragment_to_filmPageFragment"
+            app:destination="@id/filmPageFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/actorPageFragment"
+        android:name="com.example.cinemapark.presentation.ActorPageFragment"
+        android:label="fragment_actor_page"
+        tools:layout="@layout/fragment_actor_page">
+        <action
+            android:id="@+id/action_actorPageFragment_to_filmPageFragment"
+            app:destination="@id/filmPageFragment" />
+        <action
+            android:id="@+id/action_actorPageFragment_to_bestFilmFragment"
+            app:destination="@id/bestFilmFragment" />
+        <action
+            android:id="@+id/action_actorPageFragment_to_filmPageFragment2"
+            app:destination="@id/filmPageFragment" />
+        <action
+            android:id="@+id/action_actorPageFragment_to_filmActorAllFragment"
+            app:destination="@id/filmActorAllFragment" />
+        <action
+            android:id="@+id/action_actorPageFragment_to_searchFragment"
+            app:destination="@id/searchFragment" />
+        <action
+            android:id="@+id/action_actorPageFragment_to_profileFragment"
+            app:destination="@id/profileFragment" />
+        <action
+            android:id="@+id/action_actorPageFragment_to_homepageFragment"
+            app:destination="@id/homepageFragment" />
+        <action
+            android:id="@+id/action_actorPageFragment_to_searchFragment2"
+            app:destination="@id/searchFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/bestFilmFragment"
+        android:name="com.example.cinemapark.presentation.BestFilmFragment"
+        android:label="fragment_best_film"
+        tools:layout="@layout/fragment_best_film">
+        <action
+            android:id="@+id/action_bestFilmFragment_to_actorPageFragment"
+            app:destination="@id/actorPageFragment" />
+        <action
+            android:id="@+id/action_bestFilmFragment_to_filmPageFragment"
+            app:destination="@id/filmPageFragment" />
+        <action
+            android:id="@+id/action_bestFilmFragment_to_searchFragment"
+            app:destination="@id/searchFragment" />
+        <action
+            android:id="@+id/action_bestFilmFragment_to_profileFragment"
+            app:destination="@id/profileFragment" />
+        <action
+            android:id="@+id/action_bestFilmFragment_to_searchFragment2"
+            app:destination="@id/searchFragment" />
+        <action
+            android:id="@+id/action_bestFilmFragment_to_homepageFragment"
+            app:destination="@id/homepageFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/seasonsFragment"
+        android:name="com.example.cinemapark.presentation.SeasonsFragment"
+        android:label="fragment_seasons"
+        tools:layout="@layout/fragment_seasons" >
+        <action
+            android:id="@+id/action_seasonsFragment_to_filmPageFragment"
+            app:destination="@id/filmPageFragment" />
+        <action
+            android:id="@+id/action_seasonsFragment_to_searchFragment"
+            app:destination="@id/searchFragment" />
+        <action
+            android:id="@+id/action_seasonsFragment_to_homepageFragment"
+            app:destination="@id/homepageFragment" />
+        <action
+            android:id="@+id/action_seasonsFragment_to_profileFragment"
+            app:destination="@id/profileFragment" />
+        <action
+            android:id="@+id/action_seasonsFragment_to_searchFragment2"
+            app:destination="@id/searchFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.example.cinemapark.presentation.SearchFragment"
+        android:label="fragment_search"
+        tools:layout="@layout/fragment_search" >
+        <action
+            android:id="@+id/action_searchFragment_to_homepageFragment"
+            app:destination="@id/homepageFragment" />
+        <action
+            android:id="@+id/action_searchFragment_to_filmPageFragment"
+            app:destination="@id/filmPageFragment" />
+        <action
+            android:id="@+id/action_searchFragment_to_searchAllInfoFragment"
+            app:destination="@id/searchAllInfoFragment" />
+        <action
+            android:id="@+id/action_searchFragment_to_profileFragment"
+            app:destination="@id/profileFragment" />
+        <action
+            android:id="@+id/action_searchFragment_to_homepageFragment2"
+            app:destination="@id/homepageFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/searchAllInfoFragment"
+        android:name="com.example.cinemapark.presentation.SearchAllInfoFragment"
+        android:label="fragment_search_all_info"
+        tools:layout="@layout/fragment_search_all_info" >
+        <action
+            android:id="@+id/action_searchAllInfoFragment_to_searchFragment"
+            app:destination="@id/searchFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.cinemapark.presentation.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" >
+        <action
+            android:id="@+id/action_profileFragment_to_homepageFragment"
+            app:destination="@id/homepageFragment" />
+        <action
+            android:id="@+id/action_profileFragment_to_searchFragment"
+            app:destination="@id/searchFragment" />
+        <action
+            android:id="@+id/action_profileFragment_to_filmPageFragment"
+            app:destination="@id/filmPageFragment" />
+        <action
+            android:id="@+id/action_profileFragment_to_collectFragment"
+            app:destination="@id/collectFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/collectFragment"
+        android:name="com.example.cinemapark.presentation.CollectFragment"
+        android:label="fragment_collect"
+        tools:layout="@layout/fragment_collect" >
+        <action
+            android:id="@+id/action_collectFragment_to_homepageFragment"
+            app:destination="@id/homepageFragment" />
+        <action
+            android:id="@+id/action_collectFragment_to_searchFragment"
+            app:destination="@id/searchFragment" />
+        <action
+            android:id="@+id/action_collectFragment_to_profileFragment"
+            app:destination="@id/profileFragment" />
+        <action
+            android:id="@+id/action_collectFragment_to_filmPageFragment"
+            app:destination="@id/filmPageFragment" />
+    </fragment>
+
+</navigation>
