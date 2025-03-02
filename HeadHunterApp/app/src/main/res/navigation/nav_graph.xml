@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/entryEmailFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.headhunterapp.presentation.homefragment.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_massageFragment"
+            app:destination="@id/massageFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_entryEmailFragment"
+            app:destination="@id/entryEmailFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_responseFragment"
+            app:destination="@id/responseFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_favoritesFragment"
+            app:destination="@id/favoritesFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_vacancyAllFragment"
+            app:destination="@id/vacancyAllFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/entryEmailFragment"
+        android:name="com.example.headhunterapp.presentation.entryfragment.EntryEmailFragment"
+        android:label="fragment_entry_email"
+        tools:layout="@layout/fragment_entry_email" >
+        <action
+            android:id="@+id/action_entryEmailFragment_to_entryPasswordFragment"
+            app:destination="@id/entryPasswordFragment" />
+        <action
+            android:id="@+id/action_entryEmailFragment_to_responseFragment"
+            app:destination="@id/responseFragment" />
+        <action
+            android:id="@+id/action_entryEmailFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+        <action
+            android:id="@+id/action_entryEmailFragment_to_favoritesFragment"
+            app:destination="@id/favoritesFragment" />
+        <action
+            android:id="@+id/action_entryEmailFragment_to_massageFragment"
+            app:destination="@id/massageFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/entryPasswordFragment"
+        android:name="com.example.headhunterapp.presentation.entryfragment.EntryPasswordFragment"
+        android:label="fragment_entry_password"
+        tools:layout="@layout/fragment_entry_password" >
+        <action
+            android:id="@+id/action_entryPasswordFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+        <action
+            android:id="@+id/action_entryPasswordFragment_to_entryEmailFragment"
+            app:destination="@id/entryEmailFragment" />
+        <action
+            android:id="@+id/action_entryPasswordFragment_to_favoritesFragment"
+            app:destination="@id/favoritesFragment" />
+        <action
+            android:id="@+id/action_entryPasswordFragment_to_responseFragment"
+            app:destination="@id/responseFragment" />
+        <action
+            android:id="@+id/action_entryPasswordFragment_to_massageFragment"
+            app:destination="@id/massageFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/favoritesFragment"
+        android:name="com.example.headhunterapp.presentation.favoritesfragment.FavoritesFragment"
+        android:label="fragment_favorites"
+        tools:layout="@layout/fragment_favorites" >
+        <action
+            android:id="@+id/action_favoritesFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+        <action
+            android:id="@+id/action_favoritesFragment_to_responseFragment"
+            app:destination="@id/responseFragment" />
+        <action
+            android:id="@+id/action_favoritesFragment_to_massageFragment"
+            app:destination="@id/massageFragment" />
+        <action
+            android:id="@+id/action_favoritesFragment_to_entryEmailFragment"
+            app:destination="@id/entryEmailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/responseFragment"
+        android:name="com.example.headhunterapp.presentation.response.ResponseFragment"
+        android:label="fragment_vacancies_page"
+        tools:layout="@layout/fragment_response" >
+        <action
+            android:id="@+id/action_responseFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+        <action
+            android:id="@+id/action_responseFragment_to_entryEmailFragment"
+            app:destination="@id/entryEmailFragment" />
+        <action
+            android:id="@+id/action_responseFragment_to_favoritesFragment"
+            app:destination="@id/favoritesFragment" />
+        <action
+            android:id="@+id/action_responseFragment_to_massageFragment"
+            app:destination="@id/massageFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/massageFragment"
+        android:name="com.example.headhunterapp.presentation.massagefragment.MassageFragment"
+        android:label="MassageFragment" >
+        <action
+            android:id="@+id/action_massageFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+        <action
+            android:id="@+id/action_massageFragment_to_entryEmailFragment"
+            app:destination="@id/entryEmailFragment" />
+        <action
+            android:id="@+id/action_massageFragment_to_responseFragment"
+            app:destination="@id/responseFragment" />
+        <action
+            android:id="@+id/action_massageFragment_to_favoritesFragment"
+            app:destination="@id/favoritesFragment" />
+        <action
+            android:id="@+id/action_massageFragment_to_responseFragment2"
+            app:destination="@id/responseFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/vacancyAllFragment"
+        android:name="com.example.headhunterapp.presentation.vacanciesfragment.VacancyAllFragment"
+        android:label="fragment_vacancy_all"
+        tools:layout="@layout/fragment_vacancy_all" >
+        <action
+            android:id="@+id/action_vacancyAllFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+        <action
+            android:id="@+id/action_vacancyAllFragment_to_massageFragment"
+            app:destination="@id/massageFragment" />
+        <action
+            android:id="@+id/action_vacancyAllFragment_to_responseFragment"
+            app:destination="@id/responseFragment" />
+        <action
+            android:id="@+id/action_vacancyAllFragment_to_entryEmailFragment"
+            app:destination="@id/entryEmailFragment" />
+        <action
+            android:id="@+id/action_vacancyAllFragment_to_favoritesFragment"
+            app:destination="@id/favoritesFragment" />
+        <action
+            android:id="@+id/action_vacancyAllFragment_to_homeFragment2"
+            app:destination="@id/homeFragment" />
+    </fragment>
+</navigation>

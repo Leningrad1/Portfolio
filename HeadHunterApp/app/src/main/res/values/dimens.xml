@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="title_sem_bold">22sp</dimen>
+    <dimen name="title2_sem_bold">20sp</dimen>
+    <dimen name="title3_medium">16sp</dimen>
+    <dimen name="title4_medium">14sp</dimen>
+    <dimen name="text_regular">14sp</dimen>
+    <dimen name="button_text1_sem_bold">16sp</dimen>
+    <dimen name="button_text2_regular">14sp</dimen>
+    <dimen name="tab_text_regular">10sp</dimen>
+    <dimen name="number_regular">7sp</dimen>
+</resources>

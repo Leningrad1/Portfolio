@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "379338793749",
+    "project_id": "head-hunter-app",
+    "storage_bucket": "head-hunter-app.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:379338793749:android:7be032f837cf36c1213f1c",
+        "android_client_info": {
+          "package_name": "com.example.headhunterapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKdBSbIgl0wuFCIqPzkeUe5x39wsrEPHE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
