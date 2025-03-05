@@ -22,7 +22,6 @@ import kotlinx.coroutines.launch
 
 class VacancyAllFragment : Fragment() {
     private lateinit var binding: FragmentVacancyAllBinding
-
     private val viewModel: ViewModel by viewModels()
     private val homeFragment = HomeFragment()
     var list: MutableList<Vacancy> = mutableListOf()
@@ -57,6 +56,13 @@ class VacancyAllFragment : Fragment() {
                         list.add(vacancy)
                         Log.d("likeVacancies333", "$list")
                     }
+                    if (viewModel.allLikeVacancy.value.isNotEmpty()) {
+                        binding.redTab.visibility = View.VISIBLE
+                        binding.textRed.visibility = View.VISIBLE
+                        binding.textRed.text = viewModel.allLikeVacancy.value.size.toString()
+                        Log.d("vacancyListMut", "${viewModel.allLikeVacancy}")
+                    }
+                    Log.d("vacancyListMut2", "${viewModel.allLikeVacancy.value}")
                     if (recyclerViewVacancy.adapter == null) {
                         recyclerViewVacancy.adapter =
                             VacancyAdapter(requireContext(), list, ::onItemClick, viewModel)

@@ -66,7 +66,7 @@ class FavoritesFragment : Fragment() {
                 recyclerViewVacancy.layoutManager =
                     LinearLayoutManager(requireContext(), LinearLayoutManager.VERTICAL, false)
                 recyclerViewVacancy.adapter = adapter
-                viewModel.favoriteVacancies.collect { likeVacancies ->
+                viewModel.allLikeVacancy.collect { likeVacancies ->
                     homeFragment.vacanciesList.forEach { vacancy ->
                         if (likeVacancies.any { it.id == vacancy.id && it.isFavorite }) {
                             if (!favouriteVacancy.contains(vacancy)) {
@@ -83,7 +83,6 @@ class FavoritesFragment : Fragment() {
                 FirebaseCrashlytics.getInstance().recordException(e)
             }
         }
-
     }
 
     private fun onItemClick() {
@@ -114,5 +113,4 @@ class FavoritesFragment : Fragment() {
             }
         }
     }
-
 }

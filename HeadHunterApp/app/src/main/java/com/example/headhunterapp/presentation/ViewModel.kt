@@ -4,7 +4,6 @@ import android.util.Log
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.headhunterapp.data.db.DaoRepository
-import com.example.headhunterapp.dataclass.Vacancy
 import com.example.headhunterapp.dataclass.dbdataclass.LikeVacancy
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.MutableStateFlow
@@ -15,7 +14,6 @@ import kotlinx.coroutines.launch
 
 class ViewModel : ViewModel() {
 
-    private val mutableFavouriteCollect = mutableListOf<Vacancy>()
     private val _favoriteVacancies = MutableStateFlow<List<LikeVacancy>>(emptyList())
     val favoriteVacancies: StateFlow<List<LikeVacancy>> = _favoriteVacancies
 
@@ -24,12 +22,6 @@ class ViewModel : ViewModel() {
             allLikeVacancy.collect { likeVacancies ->
                 _favoriteVacancies.value = likeVacancies
             }
-        }
-    }
-
-    fun addFavouriteVacancy(vacancy: Vacancy) {
-        viewModelScope.launch {
-            mutableFavouriteCollect.add(vacancy)
         }
     }
 

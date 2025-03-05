@@ -8,10 +8,12 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
 import androidx.fragment.app.Fragment
+import androidx.fragment.app.viewModels
 import androidx.lifecycle.lifecycleScope
 import androidx.navigation.fragment.findNavController
 import com.example.headhunterapp.R
 import com.example.headhunterapp.databinding.FragmentEntryEmailBinding
+import com.example.headhunterapp.presentation.ViewModel
 import com.google.android.material.textfield.TextInputEditText
 import com.google.firebase.crashlytics.FirebaseCrashlytics
 import kotlinx.coroutines.launch
@@ -20,6 +22,7 @@ import kotlinx.coroutines.launch
 class EntryEmailFragment : Fragment() {
 
     private lateinit var binding: FragmentEntryEmailBinding
+    private val viewModel: ViewModel by viewModels()
 
 
     override fun onCreateView(

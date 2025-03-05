@@ -10,10 +10,12 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
 import androidx.fragment.app.Fragment
+import androidx.fragment.app.viewModels
 import androidx.lifecycle.lifecycleScope
 import androidx.navigation.fragment.findNavController
 import com.example.headhunterapp.R
 import com.example.headhunterapp.databinding.FragmentEntryPasswordBinding
+import com.example.headhunterapp.presentation.ViewModel
 import com.google.firebase.crashlytics.FirebaseCrashlytics
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
@@ -21,6 +23,7 @@ import kotlinx.coroutines.launch
 class EntryPasswordFragment : Fragment() {
 
     private lateinit var binding: FragmentEntryPasswordBinding
+    private val viewModel: ViewModel by viewModels()
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -33,17 +36,27 @@ class EntryPasswordFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        try {
-            val bundle = this.arguments
-            var email = bundle?.getString(EntryEmailFragment.EMAIL)
-            Log.d("email", "$email")
-            binding.email.text = email.toString()
-            setupListeners()
-            checkPassword()
-            tabButton()
-        } catch (e: Throwable) {
-            Log.d("catch", "$e")
-            FirebaseCrashlytics.getInstance().recordException(e)
+        val bundle = this.arguments
+        lifecycleScope.launch {
+            try {
+                var email = bundle?.getString(EntryEmailFragment.EMAIL)
+                Log.d("email", "$email")
+                binding.email.text = email.toString()
+                setupListeners()
+                checkPassword()
+                tabButton()
+                delay(1000)
+                if (viewModel.allLikeVacancy.value.isNotEmpty()) {
+                    binding.redTab.visibility = View.VISIBLE
+                    binding.textRed.visibility = View.VISIBLE
+                    binding.textRed.text = viewModel.allLikeVacancy.value.size.toString()
+                    Log.d("vacancyListMut", "${viewModel.allLikeVacancy}")
+                }
+                Log.d("vacancyListMut2", "${viewModel.allLikeVacancy.value}")
+            } catch (e: Throwable) {
+                Log.d("catch", "$e")
+                FirebaseCrashlytics.getInstance().recordException(e)
+            }
         }
     }
 

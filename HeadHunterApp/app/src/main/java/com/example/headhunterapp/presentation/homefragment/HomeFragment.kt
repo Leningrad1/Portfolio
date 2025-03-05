@@ -96,6 +96,13 @@ class HomeFragment : Fragment() {
                         vacancy.isFavorite =
                             likeVacancies.any { it.id == vacancy.id && it.isFavorite }
                         Log.d("vacancy", "$vacanciesList")
+                        if (viewModel.allLikeVacancy.value.isNotEmpty()) {
+                            binding.redTab.visibility = View.VISIBLE
+                            binding.textRed.visibility = View.VISIBLE
+                            binding.textRed.text = viewModel.allLikeVacancy.value.size.toString()
+                            Log.d("vacancyListMut", "${viewModel.allLikeVacancy}")
+                        }
+                        Log.d("vacancyListMut2", "${viewModel.allLikeVacancy.value}")
                     }
                     adapter.notifyDataSetChanged()
                 }
@@ -109,7 +116,7 @@ class HomeFragment : Fragment() {
         lifecycleScope.launch {
             vacanciesList.forEach { it ->
                 if (it.isFavorite) {
-                    viewModel.addFavouriteVacancy(it)
+                    viewModel.onAddLikeVacancy(it.id, it.isFavorite)
                 }
             }
         }

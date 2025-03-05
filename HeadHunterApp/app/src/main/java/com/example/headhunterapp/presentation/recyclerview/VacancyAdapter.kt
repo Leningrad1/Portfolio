@@ -9,8 +9,8 @@ import android.widget.TextView
 import androidx.appcompat.widget.AppCompatButton
 import androidx.recyclerview.widget.RecyclerView
 import com.example.headhunterapp.R
-import com.example.headhunterapp.presentation.ViewModel
 import com.example.headhunterapp.dataclass.Vacancy
+import com.example.headhunterapp.presentation.ViewModel
 import java.text.SimpleDateFormat
 import java.util.Locale
 import kotlin.reflect.KFunction0
