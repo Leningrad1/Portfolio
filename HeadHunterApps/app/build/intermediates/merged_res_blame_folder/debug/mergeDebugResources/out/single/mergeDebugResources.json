@@ -1,0 +1,290 @@
+[
+    {
+        "merged": "com.example.headhunterapps.app-debug-4:/drawable_avatar.png.flat",
+        "source": "com.example.headhunterapps.app-main-6:/drawable/avatar.png"
+    },
+    {
+        "merged": "com.example.headhunterapps.app-debug-4:/mipmap-anydpi_ic_launcher.xml.flat",
+        "source": "com.example.headhunterapps.app-main-6:/mipmap-anydpi/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.headhunterapps.app-debug-4:/drawable_rounded_corners.xml.flat",
+        "source": "com.example.headhunterapps.app-main-6:/drawable/rounded_corners.xml"
+    },
+    {
+        "merged": "com.example.headhunterapps.app-debug-4:/drawable_avatar3.png.flat",
+        "source": "com.example.headhunterapps.app-main-6:/drawable/avatar3.png"
+    },
+    {
+        "merged": "com.example.headhunterapps.app-debug-4:/layout_fragment_entry_password.xml.flat",
+        "source": "com.example.headhunterapps.app-main-6:/layout/fragment_entry_password.xml"
+    },
+    {
+        "merged": "com.example.headhunterapps.app-debug-4:/drawable_tabs_massage.png.flat",
+        "source": "com.example.headhunterapps.app-main-6:/drawable/tabs_massage.png"
+    },
+    {
+        "merged": "com.example.headhunterapps.app-debug-4:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.headhunterapps.app-main-6:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.headhunterapps.app-debug-4:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.headhunterapps.app-main-6:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.headhunterapps.app-debug-4:/drawable_tab_fav_blue.png.flat",
+        "source": "com.example.headhunterapps.app-main-6:/drawable/tab_fav_blue.png"
+    },
+    {
+        "merged": "com.example.headhunterapps.app-debug-4:/drawable_tab_search.png.flat",
+        "source": "com.example.headhunterapps.app-main-6:/drawable/tab_search.png"
+    },
+    {
+        "merged": "com.example.headhunterapps.app-debug-4:/drawable_elements_red_tab.png.flat",
+        "source": "com.example.headhunterapps.app-main-6:/drawable/elements_red_tab.png"
+    },
+    {
+        "merged": "com.example.headhunterapps.app-debug-4:/font_display_light.otf.flat",
+        "source": "com.example.headhunterapps.app-main-6:/font/display_light.otf"
+    },
+    {
+        "merged": "com.example.headhunterapps.app-debug-4:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.headhunterapps.app-main-6:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.headhunterapps.app-debug-4:/drawable_tab_heart_blue.png.flat",
+        "source": "com.example.headhunterapps.app-main-6:/drawable/tab_heart_blue.png"
+    },
+    {
+        "merged": "com.example.headhunterapps.app-debug-4:/layout_fragment_massage.xml.flat",
+        "source": "com.example.headhunterapps.app-main-6:/layout/fragment_massage.xml"
+    },
+    {
+        "merged": "com.example.headhunterapps.app-debug-4:/layout_post_entry_format.xml.flat",
+        "source": "com.example.headhunterapps.app-main-6:/layout/post_entry_format.xml"
+    },
+    {
+        "merged": "com.example.headhunterapps.app-debug-4:/drawable_icon_filter.png.flat",
+        "source": "com.example.headhunterapps.app-main-6:/drawable/icon_filter.png"
+    },
+    {
+        "merged": "com.example.headhunterapps.app-debug-4:/drawable_icon_work1.png.flat",
+        "source": "com.example.headhunterapps.app-main-6:/drawable/icon_work1.png"
+    },
+    {
+        "merged": "com.example.headhunterapps.app-debug-4:/drawable_light_filled.png.flat",
+        "source": "com.example.headhunterapps.app-main-6:/drawable/light_filled.png"
+    },
+    {
+        "merged": "com.example.headhunterapps.app-debug-4:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.headhunterapps.app-main-6:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.headhunterapps.app-debug-4:/font_display_bold.otf.flat",
+        "source": "com.example.headhunterapps.app-main-6:/font/display_bold.otf"
+    },
+    {
+        "merged": "com.example.headhunterapps.app-debug-4:/drawable_tab_click_blue.png.flat",
+        "source": "com.example.headhunterapps.app-main-6:/drawable/tab_click_blue.png"
+    },
+    {
+        "merged": "com.example.headhunterapps.app-debug-4:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.example.headhunterapps.app-main-6:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.headhunterapps.app-debug-4:/drawable_tab_prof_blue.png.flat",
+        "source": "com.example.headhunterapps.app-main-6:/drawable/tab_prof_blue.png"
+    },
+    {
+        "merged": "com.example.headhunterapps.app-debug-4:/font_display_regular.otf.flat",
+        "source": "com.example.headhunterapps.app-main-6:/font/display_regular.otf"
+    },
+    {
+        "merged": "com.example.headhunterapps.app-debug-4:/xml_backup_rules.xml.flat",
+        "source": "com.example.headhunterapps.app-main-6:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.example.headhunterapps.app-debug-4:/mipmap-anydpi_ic_launcher_round.xml.flat",
+        "source": "com.example.headhunterapps.app-main-6:/mipmap-anydpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.headhunterapps.app-debug-4:/drawable_tabs_click.png.flat",
+        "source": "com.example.headhunterapps.app-main-6:/drawable/tabs_click.png"
+    },
+    {
+        "merged": "com.example.headhunterapps.app-debug-4:/drawable_rounded_corners_green.xml.flat",
+        "source": "com.example.headhunterapps.app-main-6:/drawable/rounded_corners_green.xml"
+    },
+    {
+        "merged": "com.example.headhunterapps.app-debug-4:/drawable_tabs_profile.png.flat",
+        "source": "com.example.headhunterapps.app-main-6:/drawable/tabs_profile.png"
+    },
+    {
+        "merged": "com.example.headhunterapps.app-debug-4:/layout_activity_main.xml.flat",
+        "source": "com.example.headhunterapps.app-main-6:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.headhunterapps.app-debug-4:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.headhunterapps.app-main-6:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.headhunterapps.app-debug-4:/layout_fragment_entry_email.xml.flat",
+        "source": "com.example.headhunterapps.app-main-6:/layout/fragment_entry_email.xml"
+    },
+    {
+        "merged": "com.example.headhunterapps.app-debug-4:/font_display_black.otf.flat",
+        "source": "com.example.headhunterapps.app-main-6:/font/display_black.otf"
+    },
+    {
+        "merged": "com.example.headhunterapps.app-debug-4:/font_display_heavy.otf.flat",
+        "source": "com.example.headhunterapps.app-main-6:/font/display_heavy.otf"
+    },
+    {
+        "merged": "com.example.headhunterapps.app-debug-4:/drawable_tab_heard.png.flat",
+        "source": "com.example.headhunterapps.app-main-6:/drawable/tab_heard.png"
+    },
+    {
+        "merged": "com.example.headhunterapps.app-debug-4:/layout_fragment_home.xml.flat",
+        "source": "com.example.headhunterapps.app-main-6:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.example.headhunterapps.app-debug-4:/drawable_icon_people.png.flat",
+        "source": "com.example.headhunterapps.app-main-6:/drawable/icon_people.png"
+    },
+    {
+        "merged": "com.example.headhunterapps.app-debug-4:/drawable_icon_see_green.png.flat",
+        "source": "com.example.headhunterapps.app-main-6:/drawable/icon_see_green.png"
+    },
+    {
+        "merged": "com.example.headhunterapps.app-debug-4:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.headhunterapps.app-main-6:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.headhunterapps.app-debug-4:/layout_post_search.xml.flat",
+        "source": "com.example.headhunterapps.app-main-6:/layout/post_search.xml"
+    },
+    {
+        "merged": "com.example.headhunterapps.app-debug-4:/drawable_tab_mass.png.flat",
+        "source": "com.example.headhunterapps.app-main-6:/drawable/tab_mass.png"
+    },
+    {
+        "merged": "com.example.headhunterapps.app-debug-4:/drawable_empty_circle.png.flat",
+        "source": "com.example.headhunterapps.app-main-6:/drawable/empty_circle.png"
+    },
+    {
+        "merged": "com.example.headhunterapps.app-debug-4:/navigation_nav_graph.xml.flat",
+        "source": "com.example.headhunterapps.app-main-6:/navigation/nav_graph.xml"
+    },
+    {
+        "merged": "com.example.headhunterapps.app-debug-4:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.headhunterapps.app-main-6:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.headhunterapps.app-debug-4:/drawable_icon_share.png.flat",
+        "source": "com.example.headhunterapps.app-main-6:/drawable/icon_share.png"
+    },
+    {
+        "merged": "com.example.headhunterapps.app-debug-4:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.headhunterapps.app-main-6:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.headhunterapps.app-debug-4:/drawable_map.png.flat",
+        "source": "com.example.headhunterapps.app-main-6:/drawable/map.png"
+    },
+    {
+        "merged": "com.example.headhunterapps.app-debug-4:/drawable_home_indicator.png.flat",
+        "source": "com.example.headhunterapps.app-main-6:/drawable/home_indicator.png"
+    },
+    {
+        "merged": "com.example.headhunterapps.app-debug-4:/drawable_tab_search_blue.png.flat",
+        "source": "com.example.headhunterapps.app-main-6:/drawable/tab_search_blue.png"
+    },
+    {
+        "merged": "com.example.headhunterapps.app-debug-4:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.headhunterapps.app-main-6:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.headhunterapps.app-debug-4:/font_display_medium.otf.flat",
+        "source": "com.example.headhunterapps.app-main-6:/font/display_medium.otf"
+    },
+    {
+        "merged": "com.example.headhunterapps.app-debug-4:/drawable_tab_click.png.flat",
+        "source": "com.example.headhunterapps.app-main-6:/drawable/tab_click.png"
+    },
+    {
+        "merged": "com.example.headhunterapps.app-debug-4:/font_display_semibold.otf.flat",
+        "source": "com.example.headhunterapps.app-main-6:/font/display_semibold.otf"
+    },
+    {
+        "merged": "com.example.headhunterapps.app-debug-4:/font_display_thin.otf.flat",
+        "source": "com.example.headhunterapps.app-main-6:/font/display_thin.otf"
+    },
+    {
+        "merged": "com.example.headhunterapps.app-debug-4:/drawable_tabs_search.png.flat",
+        "source": "com.example.headhunterapps.app-main-6:/drawable/tabs_search.png"
+    },
+    {
+        "merged": "com.example.headhunterapps.app-debug-4:/layout_fragment_response.xml.flat",
+        "source": "com.example.headhunterapps.app-main-6:/layout/fragment_response.xml"
+    },
+    {
+        "merged": "com.example.headhunterapps.app-debug-4:/drawable_icon_back.png.flat",
+        "source": "com.example.headhunterapps.app-main-6:/drawable/icon_back.png"
+    },
+    {
+        "merged": "com.example.headhunterapps.app-debug-4:/drawable_avatar2.png.flat",
+        "source": "com.example.headhunterapps.app-main-6:/drawable/avatar2.png"
+    },
+    {
+        "merged": "com.example.headhunterapps.app-debug-4:/drawable_map_mini.png.flat",
+        "source": "com.example.headhunterapps.app-main-6:/drawable/map_mini.png"
+    },
+    {
+        "merged": "com.example.headhunterapps.app-debug-4:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.headhunterapps.app-main-6:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.headhunterapps.app-debug-4:/layout_fragment_vacancy_all.xml.flat",
+        "source": "com.example.headhunterapps.app-main-6:/layout/fragment_vacancy_all.xml"
+    },
+    {
+        "merged": "com.example.headhunterapps.app-debug-4:/drawable_icon_see.png.flat",
+        "source": "com.example.headhunterapps.app-main-6:/drawable/icon_see.png"
+    },
+    {
+        "merged": "com.example.headhunterapps.app-debug-4:/drawable_tab_massage.png.flat",
+        "source": "com.example.headhunterapps.app-main-6:/drawable/tab_massage.png"
+    },
+    {
+        "merged": "com.example.headhunterapps.app-debug-4:/drawable_search_fun.png.flat",
+        "source": "com.example.headhunterapps.app-main-6:/drawable/search_fun.png"
+    },
+    {
+        "merged": "com.example.headhunterapps.app-debug-4:/drawable_icon_work.png.flat",
+        "source": "com.example.headhunterapps.app-main-6:/drawable/icon_work.png"
+    },
+    {
+        "merged": "com.example.headhunterapps.app-debug-4:/layout_fragment_favorites.xml.flat",
+        "source": "com.example.headhunterapps.app-main-6:/layout/fragment_favorites.xml"
+    },
+    {
+        "merged": "com.example.headhunterapps.app-debug-4:/font_display_ultralight.otf.flat",
+        "source": "com.example.headhunterapps.app-main-6:/font/display_ultralight.otf"
+    },
+    {
+        "merged": "com.example.headhunterapps.app-debug-4:/drawable_tab_prof_true.png.flat",
+        "source": "com.example.headhunterapps.app-main-6:/drawable/tab_prof_true.png"
+    },
+    {
+        "merged": "com.example.headhunterapps.app-debug-4:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.headhunterapps.app-main-6:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.headhunterapps.app-debug-4:/layout_item_button.xml.flat",
+        "source": "com.example.headhunterapps.app-main-6:/layout/item_button.xml"
+    },
+    {
+        "merged": "com.example.headhunterapps.app-debug-4:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.headhunterapps.app-main-6:/mipmap-hdpi/ic_launcher.webp"
+    }
+]

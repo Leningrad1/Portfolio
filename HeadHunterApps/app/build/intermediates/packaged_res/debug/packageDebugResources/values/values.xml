@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="blue">#2B7EFE</color>
+    <color name="dark_blue">#00427D</color>
+    <color name="dark_green">#015905</color>
+    <color name="green">#4CB24E</color>
+    <color name="grey1">#222325</color>
+    <color name="grey2">#313234</color>
+    <color name="grey3">#858688</color>
+    <color name="grey4">#9F9F9F</color>
+    <color name="grey5">#DBDBDB</color>
+    <color name="red">#FF0000</color>
+    <color name="shadows">#CC0C0C0C</color>
+    <color name="white">#FFFFFFFF</color>
+    <dimen name="button_text1_sem_bold">16sp</dimen>
+    <dimen name="button_text2_regular">14sp</dimen>
+    <dimen name="number_regular">7sp</dimen>
+    <dimen name="tab_text_regular">10sp</dimen>
+    <dimen name="text_regular">14sp</dimen>
+    <dimen name="title2_sem_bold">20sp</dimen>
+    <dimen name="title3_medium">16sp</dimen>
+    <dimen name="title4_medium">14sp</dimen>
+    <dimen name="title_sem_bold">22sp</dimen>
+    <string name="app_name">Head Hunter App</string>
+    <string name="entry_app">Вход в личный кабинет</string>
+    <string name="entry_password">Войти с паролем</string>
+    <string name="favourite">Избранное</string>
+    <string name="favourites_tab">Избранное</string>
+    <string name="filter_vacancy">По соответствию</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="job_title">Должность, ключевые слова</string>
+    <string name="job_vacancy">Должность по подходящим вакансиям</string>
+    <string name="new_vacansiece">Размещение вакансий и дотуп к базе резюме</string>
+    <string name="next">Продолжить</string>
+    <string name="pass_text_entry_code">Напишите его, чтобы подтвердить, что это вы, а не кто-то другой входит в личный кабинет</string>
+    <string name="people_few">человека</string>
+    <string name="people_many">человек</string>
+    <string name="people_one">человек</string>
+    <string name="search_people">Я ищу сотрудников</string>
+    <string name="search_tab">Поиск</string>
+    <string name="search_work">Поиск работы</string>
+    <string name="search_working">Поиск сотрудников</string>
+    <string name="tab_massage">Сообщения</string>
+    <string name="tab_profile">Профиль</string>
+    <string name="tab_send">Отклик</string>
+    <style name="Base.Theme.HeadHunterApps" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Number">
+        <item name="android:textSize">@dimen/number_regular</item>
+        <item name="android:fontFamily">@font/display_regular</item>
+    </style>
+    <style name="Tab">
+        <item name="android:textSize">@dimen/tab_text_regular</item>
+        <item name="android:fontFamily">@font/display_regular</item>
+    </style>
+    <style name="TextAppearance">
+        <item name="android:textSize">@dimen/text_regular</item>
+        <item name="android:fontFamily">@font/display_regular</item>
+    </style>
+    <style name="TextButton1">
+        <item name="android:textSize">@dimen/button_text1_sem_bold</item>
+        <item name="android:fontFamily">@font/display_bold</item>
+    </style>
+    <style name="TextButton2">
+        <item name="android:textSize">@dimen/button_text2_regular</item>
+        <item name="android:fontFamily">@font/display_regular</item>
+    </style>
+    <style name="Theme.HeadHunterApps" parent="Base.Theme.HeadHunterApps"/>
+    <style name="TitleAppearance">
+        <item name="android:textSize">@dimen/title_sem_bold</item>
+        <item name="android:fontFamily">@font/display_bold</item>
+    </style>
+    <style name="TitleAppearance2">
+        <item name="android:textSize">@dimen/title2_sem_bold</item>
+        <item name="android:fontFamily">@font/display_bold</item>
+    </style>
+    <style name="TitleAppearance3">
+        <item name="android:textSize">@dimen/title3_medium</item>
+        <item name="android:fontFamily">@font/display_medium</item>
+    </style>
+    <style name="TitleAppearance4">
+        <item name="android:textSize">@dimen/title4_medium</item>
+        <item name="android:fontFamily">@font/display_medium</item>
+    </style>
+</resources>

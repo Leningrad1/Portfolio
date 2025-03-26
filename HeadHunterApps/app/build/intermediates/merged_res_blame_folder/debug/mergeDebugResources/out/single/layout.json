@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "com.example.headhunterapps.app-mergeDebugResources-3:/layout/item_button.xml",
+        "source": "com.example.headhunterapps.app-main-6:/layout/item_button.xml"
+    },
+    {
+        "merged": "com.example.headhunterapps.app-mergeDebugResources-3:/layout/post_entry_format.xml",
+        "source": "com.example.headhunterapps.app-main-6:/layout/post_entry_format.xml"
+    },
+    {
+        "merged": "com.example.headhunterapps.app-mergeDebugResources-3:/layout/fragment_massage.xml",
+        "source": "com.example.headhunterapps.app-main-6:/layout/fragment_massage.xml"
+    },
+    {
+        "merged": "com.example.headhunterapps.app-mergeDebugResources-3:/layout/fragment_entry_password.xml",
+        "source": "com.example.headhunterapps.app-main-6:/layout/fragment_entry_password.xml"
+    },
+    {
+        "merged": "com.example.headhunterapps.app-mergeDebugResources-3:/layout/fragment_home.xml",
+        "source": "com.example.headhunterapps.app-main-6:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.example.headhunterapps.app-mergeDebugResources-3:/layout/fragment_entry_email.xml",
+        "source": "com.example.headhunterapps.app-main-6:/layout/fragment_entry_email.xml"
+    },
+    {
+        "merged": "com.example.headhunterapps.app-mergeDebugResources-3:/layout/fragment_favorites.xml",
+        "source": "com.example.headhunterapps.app-main-6:/layout/fragment_favorites.xml"
+    },
+    {
+        "merged": "com.example.headhunterapps.app-mergeDebugResources-3:/layout/fragment_vacancy_all.xml",
+        "source": "com.example.headhunterapps.app-main-6:/layout/fragment_vacancy_all.xml"
+    },
+    {
+        "merged": "com.example.headhunterapps.app-mergeDebugResources-3:/layout/fragment_response.xml",
+        "source": "com.example.headhunterapps.app-main-6:/layout/fragment_response.xml"
+    },
+    {
+        "merged": "com.example.headhunterapps.app-mergeDebugResources-3:/layout/post_search.xml",
+        "source": "com.example.headhunterapps.app-main-6:/layout/post_search.xml"
+    },
+    {
+        "merged": "com.example.headhunterapps.app-mergeDebugResources-3:/layout/activity_main.xml",
+        "source": "com.example.headhunterapps.app-main-6:/layout/activity_main.xml"
+    }
+]
