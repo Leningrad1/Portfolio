@@ -1,5 +1,7 @@
 package com.example.headhunterapps;
 
+import com.example.headhunterapps.presentation.ViewModel;
+
 import dagger.Binds;
 import dagger.Module;
 import dagger.Provides;

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="TitleAppearance">
+        <item name="android:textSize">@dimen/title_sem_bold</item>
+        <item name="android:fontFamily">@font/display_bold</item>
+    </style>
+
+    <style name="TitleAppearance2">
+        <item name="android:textSize">@dimen/title2_sem_bold</item>
+        <item name="android:fontFamily">@font/display_bold</item>
+    </style>
+
+    <style name="TitleAppearance3">
+        <item name="android:textSize">@dimen/title3_medium</item>
+        <item name="android:fontFamily">@font/display_medium</item>
+    </style>
+
+    <style name="TitleAppearance4">
+        <item name="android:textSize">@dimen/title4_medium</item>
+        <item name="android:fontFamily">@font/display_medium</item>
+    </style>
+
+    <style name="TextAppearance">
+        <item name="android:textSize">@dimen/text_regular</item>
+        <item name="android:fontFamily">@font/display_regular</item>
+    </style>
+
+    <style name="TextButton1">
+        <item name="android:textSize">@dimen/button_text1_sem_bold</item>
+        <item name="android:fontFamily">@font/display_bold</item>
+    </style>
+
+    <style name="TextButton2">
+        <item name="android:textSize">@dimen/button_text2_regular</item>
+        <item name="android:fontFamily">@font/display_regular</item>
+    </style>
+
+    <style name="Tab">
+        <item name="android:textSize">@dimen/tab_text_regular</item>
+        <item name="android:fontFamily">@font/display_regular</item>
+    </style>
+
+    <style name="Number">
+        <item name="android:textSize">@dimen/number_regular</item>
+        <item name="android:fontFamily">@font/display_regular</item>
+    </style>
+</resources>

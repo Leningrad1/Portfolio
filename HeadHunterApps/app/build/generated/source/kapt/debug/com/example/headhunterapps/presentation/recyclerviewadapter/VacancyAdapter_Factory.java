@@ -3,7 +3,7 @@ package com.example.headhunterapps.presentation.recyclerviewadapter;
 
 import android.content.Context;
 import com.example.headhunterapp.model.Vacancy;
-import com.example.headhunterapps.ViewModel;
+import com.example.headhunterapps.presentation.ViewModel;
 import dagger.internal.DaggerGenerated;
 import dagger.internal.Factory;
 import dagger.internal.QualifierMetadata;

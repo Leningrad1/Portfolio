@@ -3,6 +3,8 @@ package com.example.headhunterapps;
 
 import com.example.headhunterapp.data.db.UserDao;
 import com.example.headhunterapp.data.repository.Repository;
+import com.example.headhunterapps.presentation.ViewModel;
+
 import dagger.internal.DaggerGenerated;
 import dagger.internal.Factory;
 import dagger.internal.QualifierMetadata;

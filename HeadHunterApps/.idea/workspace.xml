@@ -34,19 +34,19 @@
       <change afterPath="$PROJECT_DIR$/../BasicStateCodelab/gradlew.bat" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../BasicStateCodelab/settings.gradle.kts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/headhunterapps/Application.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/headhunterapps/ViewModel.kt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/headhunterapps/data/db/AppDataBase.kt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/headhunterapps/data/db/UserDao.kt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/headhunterapps/data/repository/Repository.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/headhunterapps/model/Address.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/headhunterapps/model/Button.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/headhunterapps/model/Experience.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/headhunterapps/model/HunterInfo.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/headhunterapps/model/Offer.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/headhunterapps/model/Salary.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/headhunterapps/model/Vacancy.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/headhunterapps/model/dbdata/LikeVacancy.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/headhunterapps/domain/model/Address.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/headhunterapps/domain/model/Button.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/headhunterapps/domain/model/Experience.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/headhunterapps/domain/model/HunterInfo.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/headhunterapps/domain/model/Offer.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/headhunterapps/domain/model/Salary.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/headhunterapps/domain/model/Vacancy.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/headhunterapps/domain/model/dbdata/LikeVacancy.kt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/headhunterapps/presentation/MainActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/headhunterapps/presentation/ViewModel.kt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/headhunterapps/presentation/entryfragment/EntryEmailFragment.kt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/headhunterapps/presentation/entryfragment/EntryPasswordFragment.kt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/headhunterapps/presentation/favourite/FavoritesFragment.kt" afterDir="false" />
@@ -199,7 +199,7 @@
     "com.google.services.firebase.aqiPopupShown": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/02_kotlin/android_dev_1_2022/HeadHunterApps/app/src/main/res/drawable",
+    "last_opened_file_path": "D:/Portfolio/HeadHunterApp",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.17",
     "project.structure.side.proportion": "0.2",
